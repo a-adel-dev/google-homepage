@@ -1,7 +1,6 @@
 /*  default styles */
 *{
-    box-sizing: border-box;
-    
+    box-sizing: border-box;  
 }
 
 
@@ -31,6 +30,11 @@
     max-width: 270px;
     margin-right: 0;
     margin-left: auto;
+}
+
+.nav-left ul {
+    margin-left: 0;
+    margin-right: auto;
 }
 
 .icon {
@@ -66,3 +70,56 @@
 
 
 /*footer*/
+.main-footer {
+    position: fixed;
+    bottom: 0;
+    background-color: slategray;
+    width: 100%;
+}
+
+.footer-div-country{
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4 ; 
+    padding: .8em 1.5em;
+    font-size: 15px;  
+    color: rgba(0,0,0,0.65);
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+.footer-div-legal{
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4 ; 
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+.nav-footer li,a {
+    display: inline-block;
+    margin-left: 10px;
+    color: rgba(0,0,0,0.65);
+    padding: .5em 0;  
+    font-size: 13px;  
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+.nav-footer a:hover{
+    text-decoration: underline;
+
+}
+
+#right {
+    max-width: 220px;
+    margin-right: 0;
+    margin-left: auto;
+   
+   
+}
+
+#left {
+    float: left;
+    max-width: 400px;
+    margin-left: 0;
+    margin-right: auto;   
+}
