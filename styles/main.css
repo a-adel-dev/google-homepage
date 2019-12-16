@@ -1,0 +1,68 @@
+/*  default styles */
+*{
+    box-sizing: border-box;
+    
+}
+
+
+
+/* header */
+
+/*Navigation*/
+
+.nav li,a{
+    display: inline-block;
+    margin-left: 10px;
+    color: rgba(0,0,0,0.87);
+    padding: .5em 0;  
+    font-size: 13px;  
+    font-family: Arial, sans-serif;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
+
+.nav ul {
+    max-width: 270px;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.icon {
+    margin-bottom: -.7em ;
+    opacity: .6;  
+}
+
+.icon:hover {
+    opacity: .9;
+    cursor: pointer;
+}
+
+.nav-btn a{
+    display: block;
+    background-color:#4285f4;
+    color: white;
+    padding: .5em 1em;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: default;
+}
+
+.nav-btn a:hover{
+    text-decoration: none;
+}
+
+
+.nav-btn a:active {
+    background-color: rgb(19, 41, 107);
+}
+
+/* sections*/
+
+
+/*footer*/
